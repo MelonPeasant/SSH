@@ -1,0 +1,27 @@
+{
+  "inbounds": [
+    {
+      "port": 10080,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "dc301d28-aa0f-4624-a2e6-b677374deeff",
+            "level": 1,
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    }
+  ]
+}
